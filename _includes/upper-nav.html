@@ -1,0 +1,8 @@
+<nav class="upper-nav">
+    <ol>
+        <li class="upper-nav-obj"><a href={{ 'index'  | relative_url }}>Etusivu</a></li>
+        {% for page in site.pages %}
+        <li class="upper-nav-obj"><a href="{{ page.url }}">{{ page.title }}</a></li>
+        {% endfor %}
+    </ol>
+</nav>

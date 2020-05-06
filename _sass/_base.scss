@@ -1,0 +1,20 @@
+nav {
+    border-bottom: 1px solid black;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0px;
+    background-color: white;
+    padding: 5px;
+}
+
+.upper-nav ol {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.upper-nav-obj {
+    display: inline-block;
+    color: #000;
+    padding: 0 0.5em;
+}
+
