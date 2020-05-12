@@ -1,0 +1,13 @@
+<nav class="side-nav" id="side-nav">
+    <ol>
+        <li class="side-nav-obj"><a href={{ 'index'  | relative_url }}>Etusivu</a></li>
+        {% for page in site.pages %}
+        {% if page.nav-title%}
+        <li class="side-nav-obj"><a href="{{ page.url }}">{{ page.nav-title }}</a></li>
+        {% endif%}
+        {% if page.sub-section %}
+        <li class="side-nav-sub-obj"><a href="{{ page.url }}">{{ page.title }}</a></li>
+        {% endif %}
+        {% endfor %}
+    </ol>
+</nav>
