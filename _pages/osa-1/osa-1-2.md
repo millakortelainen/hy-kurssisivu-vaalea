@@ -1,9 +1,5 @@
----
-layout: sub-section
-title: Yksinkertainen tietokanta
-sub-section: true
----
-##  Yksinkertainen tietokanta
+
+## Yksinkertainen tietokanta
 
 Ennen kuin alamme tutustua olemassa oleviin
 tietokantajärjestelmiin,

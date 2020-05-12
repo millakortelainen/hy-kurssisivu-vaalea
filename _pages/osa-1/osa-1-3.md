@@ -1,9 +1,3 @@
----
-layout: sub-section
-title: Relaatiomalli
-sub-section: true
----
-
 ## Relaatiomalli
 
 Relaatiomalli syrjäytti kilpailijansa 1970-luvulla ja

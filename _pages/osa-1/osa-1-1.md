@@ -1,8 +1,4 @@
----
-layout: sub-section
-title: Mikä on tietokanta?
-sub-section: true
----
+
 ## Mikä on tietokanta?
 
 _Tietokanta_ (_database_) on tietokoneella oleva kokoelma tietoa,
