@@ -1,5 +1,5 @@
 ---
-layout: course-page
+layout: section
 title: Yhteenvetokyselyt
 sub-section: true
 ---

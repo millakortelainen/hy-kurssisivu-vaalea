@@ -1,5 +1,5 @@
 ---
-layout: course-page
+layout: section
 title: Peruskomennot
 sub-section: true
 ---

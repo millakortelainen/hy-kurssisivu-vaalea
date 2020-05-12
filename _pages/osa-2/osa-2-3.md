@@ -1,5 +1,5 @@
 ---
-layout: course-page
+layout: section
 title: SQL:n perusteet
 sub-section: true
 ---
