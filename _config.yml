@@ -20,7 +20,7 @@
 
 title: Tietokantojen perusteet
 description: ""
-baseurl: "" # the subpath of your site, e.g. /blog
+baseurl: "/db-course-template-1" # the subpath of your site, e.g. /blog
 url: "https://millakortelainen.github.io/db-course-template-1/" # the base hostname & protocol for your site, e.g. http://example.com
 
 # Build settings
