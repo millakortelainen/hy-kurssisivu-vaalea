@@ -11,12 +11,16 @@
 </head>
 
 <body>
-    {%include upper-nav.html%}
-    {%include side-nav.html%}
-    {%include header.html%}
-    {%include content.html%}
-    
-   {%include footer.html%}
+   
+        {%include upper-nav.html%}
+        {%include side-nav.html%}
+        <div class="page-content">
+        {%include header.html%}
+        {%include content.html%}
+
+        {%include footer.html%}
+    </div>
+
 </body>
 
 </html>

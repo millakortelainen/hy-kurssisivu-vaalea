@@ -1,10 +1,26 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,600,700,800&display=swap');
+
+html, body {
+      font-family: 'Open Sans', sans-serif;
+      font-size: 18px;
+      line-height: 1.5;
+      color: #000000;
+      width: 100%;
+      height: 100%;
+      overflow-x: hidden; 
+}
+
+.page-content{
+    margin-left: 13em;
+}
+
 .upper-nav {
     border-bottom: 1px solid black;
     position: -webkit-sticky;
     position: sticky;
-    top: 0px;
+    top: 0;
     background-color: white;
-    padding-left: 0;
+    padding-left: 13em;
 }
 
 .upper-nav ol {
@@ -17,16 +33,34 @@
     color: #000;
     padding: 0 0.5em;
 }
+
 .side-nav {
-    width: 10em;
     position: absolute;
-    left: 0;
-    padding-top: 20px;
+    width: 13em;
+    overflow-y: scroll;
+    top: 0;
+    bottom: 0;
+    overflow-x: hidden; 
+    padding-top: 10em;
+    background-color:rgb(150, 150, 150);
 }
 
 .side-nav ol {
     list-style-type: none;
     padding-left: 0;
+    color:black;
+}
+
+nav a {
+    color: black;
+}
+
+nav a:hover {
+    color: #386989;
+}
+
+nav a:active {
+    color: pink;
 }
 
 .side-nav-obj {
@@ -34,33 +68,16 @@
     color: #000;
     padding: 0 0.5em;
 }
+
 .side-nav-sub-obj {
     display: block;
     color: #000;
     padding: 0 0 0.5em 1em;
 }
-@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,600,700,800&display=swap');
-
-html {
-      font-family: 'Open Sans', sans-serif;
-      font-size: 18px;
-      line-height: 1.5;
-      color: #000000;
-      background-color: #ffffff;
-      width: 100%;
-      height: 100%;
-      margin: 0 0 0 10em; 
-      padding: 0px 10px;
-      border-left: 1px solid black;
-      overflow-x: hidden; 
-}
-  
 
 .header{
     text-align: center;
-    height: 30%;
-    padding: 150px 0px 0px 0px;
-    background-color: blue;
+    padding: 5em 0 0 0;
     top: 0;
     width: 100%;
     margin: 0;
@@ -68,16 +85,19 @@ html {
     margin-left: 0;
     font-size: 2rem;
     background-size: cover;
-    background-image: url(../img/tausta.jpg);
+    background-image: url(../img/1.jpg);
+    color: rgb(23, 63, 51);
+    text-shadow: 0 0 20px rgb(83, 83, 83);
 }
 
 .content {
     color: black;
+    background-color: rgba($color: #ffffff, $alpha: 0.8);
+    height: 100%;
+    padding: 0em 2em 0em 2em;
     max-width: 45rem;
     margin: auto;
-    background-color: rgba($color: #ffffff, $alpha: 0.8);
-    padding: 0em 2em 0em 2em;
-  }
+}
 
 @media screen and (max-width: 500px) {
     .header {

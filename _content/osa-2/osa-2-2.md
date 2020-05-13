@@ -3,6 +3,7 @@ layout: section
 title: Yhteenvetokyselyt
 sub-section: true
 ---
+# Yhteenvetokyselyt
 
 Yhteenvetokysely laskee jonkin yksittäisen
 arvon taulun riveistä.

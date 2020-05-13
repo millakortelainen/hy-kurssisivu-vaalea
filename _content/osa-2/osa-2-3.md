@@ -1,8 +1,10 @@
 ---
 layout: section
-title: SQL:n perusteet
+title: SQLite-tietokanta
 sub-section: true
 ---
+# SQLite-tietokanta
+
 SQLite on yksinkertainen avoimesti saatavilla oleva tietokantajärjestelmä,
 joka soveltuu hyvin SQL-kielen opetteluun.
 Voit kokeilla helposti SQL-kieleen
