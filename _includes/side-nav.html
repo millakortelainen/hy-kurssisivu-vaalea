@@ -1,4 +1,6 @@
-<nav class="side-nav">
+<nav class="side-nav" id="side-nav">
+    <h2>{{ site.title}}</h2>
+   <!-- <button id="toggle-visibility" onclick="hide()"> Piilota valikko </button>--> 
     <ol>
         <li class="side-nav-obj"><a href={{ 'index'  | relative_url }}>Etusivu</a></li>
         {% for page in site.pages %}
@@ -16,11 +18,8 @@
         
             {% endfor %}
         {% endif %}
-
-        {% if page.sub-section %}
-        <li class="side-nav-sub-obj"><a href="{{ page.url | relative_url }}">{{ page.title }}</a></li>
-        {% endif %}
         
         {% endfor %}
     </ol>
+    <!--&#9776; hamburger iocon-->
 </nav>

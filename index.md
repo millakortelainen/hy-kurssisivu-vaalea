@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: default
 title: Tietokantojen perusteet
 ---
 # Tietoa kurssista

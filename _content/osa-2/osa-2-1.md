@@ -1,9 +1,5 @@
----
-layout: section
-title: Peruskomennot
-sub-section: true
----
 # Peruskomennot
+
 Tutustumme seuraavaksi tavallisimpiin SQL-komentoihin,
 joiden avulla voimme lisätä, hakea, muuttaa ja poistaa
 tietokannan sisältöä.

@@ -1,10 +1,18 @@
 ---
-layout: section
+layout: chapter
 title: Osa 2
 nav-title: Osa 2
+sub-sections:
+    - link-url: peruskomennot
+      sub-section-title: Peruskomennot
+    - link-url: yhteenvetokyselyt
+      sub-section-title: Yhteenvetokyselyt
 ---
 # Osa 2: SQL:n perusteet
 
-* [Peruskomennot]({% link _content/osa-2/osa-2-1.md %})
-* [Yhteenvetokyselyt]({% link _content/osa-2/osa-2-2.md %})
-* [SQLite-tietokanta]({% link _content/osa-2/osa-2-3.md %})
+{% for s in page.sub-sections %}
+* [{{s.sub-section-title}}](#{{s.link-url}})
+{% endfor %}
+
+{% include_relative osa-2-1.md %}
+{% include_relative osa-2-2.md %}

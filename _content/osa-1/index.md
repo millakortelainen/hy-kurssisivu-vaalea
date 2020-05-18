@@ -1,5 +1,5 @@
 ---
-layout: section
+layout: chapter
 title: Osa 1
 nav-title: Osa 1
 sub-sections:
@@ -19,7 +19,3 @@ sub-sections:
 {% include_relative osa-1-1.md %}
 {% include_relative osa-1-2.md %}
 {% include_relative osa-1-3.md %}
-
-
-
-

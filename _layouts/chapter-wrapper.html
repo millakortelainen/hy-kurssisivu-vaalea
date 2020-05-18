@@ -7,14 +7,16 @@
     <title>{{site.title}}</title>
     <meta name='viewport' content='width=device-width, initial-scale=1'>
     <link rel='stylesheet' type='text/css' media='screen' href={{ '/assets/css/main.css'  | relative_url }}>
-
+    <script src={{ '/assets/js/main.js'  | relative_url }}></script>
 </head>
 
 <body>
     {%include side-nav.html%}
-    {%include content.html%}
-    
-   {%include footer.html%}
+    <div class="page-content">
+        {%include content.html%}
+
+        {%include footer.html%}
+    </div>
 </body>
 
 </html>
