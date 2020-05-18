@@ -1,6 +1,7 @@
 <nav class="side-nav" id="side-nav">
+    <button id="hide" onclick="hideSideNav()"> &#x2715;</button>
+    <button id="show" onclick="showSideNav()"> &#9776;</button>
     <h2>{{ site.title}}</h2>
-   <!-- <button id="toggle-visibility" onclick="hide()"> Piilota valikko </button>--> 
     <ol>
         <li class="side-nav-obj"><a href={{ 'index'  | relative_url }}>Etusivu</a></li>
         {% for page in site.pages %}
@@ -21,5 +22,4 @@
         
         {% endfor %}
     </ol>
-    <!--&#9776; hamburger iocon-->
 </nav>

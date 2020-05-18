@@ -1,11 +1,19 @@
-function hide() {
-    document.getElementById("side-nav").className = "side-nav-hidden";
-    document.getElementById("toggle-visibility").textContent ="Näytä valikko";
-    document.getElementById("toggle-visibility").setAttribute("onClick", "show()");
-  } 
+function hideSideNav() {
+  document.getElementById("side-nav").className = "side-nav-hidden";
+}
 
-  function show() {
-    document.getElementById("side-nav").className = "side-nav";
-    document.getElementById("toggle-visibility").textContent ="Piilota valikko";
-    document.getElementById("toggle-visibility").setAttribute("onClick", "hide()");
+function showSideNav() {
+  document.getElementById("side-nav").className = "side-nav";
+}
+
+function reportWindowSize() {
+  console.log("hello")
+   if(window.innerWidth<500){
+     hideSideNav()
+   } else {
+   showSideNav()
   }
+}
+
+window.onresize = reportWindowSize;
+window.onload = reportWindowSize;

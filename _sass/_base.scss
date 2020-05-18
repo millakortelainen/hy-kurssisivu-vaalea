@@ -1,18 +1,17 @@
-@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,600,700,800&display=swap');
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:400,600,700,800&display=swap");
 
 html {
-    
-      font-family: 'Open Sans', sans-serif;
-      font-size: 18px;
-      line-height: 1.5;
-      color: #000000;
-      width: 100%;
-      overflow-x: hidden; 
-      background-image: url(../img/3.jpg);
-      background-position: center;
+    font-family: "Open Sans", sans-serif;
+    font-size: 18px;
+    line-height: 1.5;
+    color: #000000;
+    width: 100%;
+    overflow-x: hidden;
+    background-image: url(../img/3.jpg);
+    background-position: center;
 }
 
-.page-content{
+.page-content {
     margin-left: 13em;
 }
 
@@ -23,10 +22,9 @@ html {
     top: 0;
     bottom: 0;
     left: 0;
-    overflow-x: hidden; 
-    background-color:rgb(255, 255, 255);
+    overflow-x: hidden;
+    background-color: rgb(255, 255, 255);
 }
-
 
 .side-nav h2 {
     text-align: center;
@@ -36,7 +34,7 @@ html {
 .side-nav ol {
     list-style-type: none;
     padding-left: 0;
-    color:black;
+    color: black;
 }
 
 nav a {
@@ -56,14 +54,33 @@ nav a:hover {
 .side-nav-sub-obj {
     display: block;
     color: #000;
-    padding: 0 0 0.5em 2em;;
+    padding: 0 0 0.5em 2em;
 }
 
-.side-nav-hidden { 
+.side-nav #show {
     display: none;
 }
 
-.header{
+.side-nav-hidden {
+    position: fixed;
+    width: 4em;
+    overflow-y: hidden;
+    background-color: transparent;
+}
+
+.side-nav-hidden h2 {
+    display: none;
+}
+
+.side-nav-hidden ol {
+    display: none;
+}
+
+.side-nav-hidden #hide {
+    display: none;
+}
+
+.header {
     text-align: center;
     padding: 5em 0 0 0;
     top: 0;
@@ -85,6 +102,12 @@ nav a:hover {
 
 @media screen and (max-width: 500px) {
     .header {
-        height: 40%;
+        height: 30%;
     }
+
+    .page-content {
+        margin-left: 4em;
+    }
+
+    
 }
