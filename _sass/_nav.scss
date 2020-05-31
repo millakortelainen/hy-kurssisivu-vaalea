@@ -34,6 +34,10 @@ nav a:hover {
     padding: 0 0 0.5em 1em;
 }
 
+.side-nav-obj hr {
+    border: thick dashed #475096ff;
+}
+
 .side-nav-sub-obj {
     display: block;
     color: #000;
@@ -62,9 +66,10 @@ nav a:hover {
 
 .side-nav-hidden button {
     text-align: center;
-    background: none;
+    background-color: rgba(71, 80, 150, 0.795);
     border: none;
     font-size: 4em;
+    margin-top: -0.25em;
 }
 
 .side-nav-hidden h2 {

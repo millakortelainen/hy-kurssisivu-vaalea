@@ -16,7 +16,7 @@
    version="1.1"
    id="svg4583"
    inkscape:version="0.92.5 (2060ec1f9f, 2020-04-08)"
-   sodipodi:docname="drawing.svg">
+   sodipodi:docname="taustakuva.svg">
   <defs
      id="defs4577" />
   <sodipodi:namedview
@@ -26,17 +26,17 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="1"
-     inkscape:cx="395.48073"
-     inkscape:cy="289.9376"
+     inkscape:zoom="2"
+     inkscape:cx="179.8092"
+     inkscape:cy="356.34208"
      inkscape:document-units="mm"
-     inkscape:current-layer="layer31"
+     inkscape:current-layer="layer1"
      showgrid="false"
      showborder="false"
-     inkscape:window-width="1856"
-     inkscape:window-height="1043"
-     inkscape:window-x="64"
-     inkscape:window-y="0"
+     inkscape:window-width="1920"
+     inkscape:window-height="1016"
+     inkscape:window-x="0"
+     inkscape:window-y="27"
      inkscape:window-maximized="1" />
   <metadata
      id="metadata4580">
@@ -54,7 +54,7 @@
      inkscape:label="Layer 1"
      inkscape:groupmode="layer"
      id="layer1"
-     style="display:inline;opacity:1"
+     style="display:none;opacity:1"
      transform="translate(-132.07513,-135.32356)">
     <image
        y="135.26852"
@@ -64,24 +64,14 @@
        preserveAspectRatio="none"
        height="158.66533"
        width="189.48399"
-       style="fill:#67676a;fill-opacity:1;stroke:#67676a;stroke-opacity:1" />
+       style="opacity:0.98999999;fill:#67676a;fill-opacity:1;stroke:#67676a;stroke-opacity:1" />
   </g>
   <g
      inkscape:groupmode="layer"
      id="layer31"
      inkscape:label="Layer 6"
      style="display:inline;opacity:1"
-     transform="translate(-132.07513,-135.32356)">
-    <rect
-       style="fill:#ecebff;fill-opacity:1;stroke:#ecebe7;stroke-width:0.26407319;stroke-opacity:1"
-       id="rect889"
-       width="189.19987"
-       height="158.29143"
-       x="132.20717"
-       y="135.4556"
-       inkscape:export-xdpi="96"
-       inkscape:export-ydpi="96" />
-  </g>
+     transform="translate(-132.07513,-135.32356)" />
   <g
      inkscape:groupmode="layer"
      id="layer4"
