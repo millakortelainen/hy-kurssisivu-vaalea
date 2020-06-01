@@ -83,3 +83,16 @@ nav a:hover {
 .side-nav-hidden #hide {
     display: none;
 }
+
+@media screen and (max-width: 500px) {
+    .side-nav-hidden button {
+        text-align: center;
+        background-color: rgba(71, 80, 150, 0.795);
+        border: none;
+        font-size: 2em;
+        font-weight: bold;
+        margin-top: 0;
+    }
+    
+
+}
