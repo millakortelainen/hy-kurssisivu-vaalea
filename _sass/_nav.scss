@@ -89,10 +89,12 @@ nav a:hover {
         text-align: center;
         background-color: rgba(71, 80, 150, 0.795);
         border: none;
-        font-size: 2em;
-        font-weight: bold;
+        font-size: 3em;
+        font-weight: bolder;
         margin-top: 0;
     }
     
-
+    .side-nav-hidden {
+        width: 3em;
+    }
 }
