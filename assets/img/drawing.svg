@@ -26,8 +26,8 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="45.254834"
-     inkscape:cx="0.52179748"
-     inkscape:cy="8.3016723"
+     inkscape:cx="4.7423411"
+     inkscape:cy="7.9039248"
      inkscape:document-units="px"
      inkscape:current-layer="layer4"
      showgrid="false"
@@ -78,7 +78,7 @@
      inkscape:label="Layer 4"
      style="display:inline">
     <rect
-       style="opacity:0.8;fill:#ffffff;fill-opacity:0.99504948;stroke:#ffffff;stroke-width:0.99601644;stroke-opacity:0.99607843"
+       style="opacity:0.8;fill:#cccccc;fill-opacity:0.99504948;stroke:#cccccc;stroke-width:0.99601644;stroke-opacity:0.99607843"
        id="rect852"
        width="14.985808"
        height="14.919518"
@@ -92,7 +92,7 @@
      id="layer3"
      inkscape:label="Layer 3">
     <rect
-       style="opacity:1;fill:#475096;fill-opacity:1;stroke:#475096;stroke-opacity:1"
+       style="opacity:1;fill:#333333;fill-opacity:1;stroke:#333333;stroke-opacity:1"
        id="rect977"
        width="12.727922"
        height="1.6572815"
@@ -119,7 +119,7 @@
        rx="1.56889"
        ry="1.19622" />
     <rect
-       style="opacity:1;fill:#475096;fill-opacity:1;stroke:#475096;stroke-opacity:1"
+       style="opacity:1;fill:#333333;fill-opacity:1;stroke:#333333;stroke-opacity:1"
        id="rect977-36"
        width="12.727922"
        height="1.6572815"
@@ -128,7 +128,7 @@
        rx="0.50822943"
        ry="0.51121044" />
     <rect
-       style="opacity:1;fill:#475096;fill-opacity:1;stroke:#475096;stroke-opacity:1"
+       style="opacity:1;fill:#333333;fill-opacity:1;stroke:#333333;stroke-opacity:1"
        id="rect977-36-7"
        width="12.727922"
        height="1.6572815"
