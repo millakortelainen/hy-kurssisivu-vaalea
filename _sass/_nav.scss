@@ -61,7 +61,7 @@ nav a:hover {
     width: 4em;
     overflow-y: hidden;
     background-color: transparent;
-    overflow-x: none;
+    overflow-x: hidden;
 }
 
 .side-nav-hidden button {
@@ -70,7 +70,7 @@ nav a:hover {
     border: none;
     font-size: 4em;
     margin-top: 0;
-    overflow-x: none;
+    overflow-x: hidden;
 }
 
 .side-nav-hidden h2 {
