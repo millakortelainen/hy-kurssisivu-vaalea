@@ -20,8 +20,6 @@ Tiedostoon `_config.yml` laitetaan kurssin tiedot.
 * Kenttään `url` tulee osoite, jossa sivu julkaistaan. Linkin saa yleensä suoraan ghpages sivulta.
 
 * Kenttään `baseurl` tulee osoitteen loppuosa eli hakemiston nimi.
-  
-  * https://millakortelainen.github.io**/course-template-4**/
 
 ## Erityyppiset sivut
 
