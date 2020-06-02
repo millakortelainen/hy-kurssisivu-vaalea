@@ -18,7 +18,7 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: Tietokantojen perusteet
+title: Kurssin nimi
 description: ""
 baseurl: "/course-template-4" # the subpath of your site, e.g. /blog
 url: "https://millakortelainen.github.io/course-template-4/" # the base hostname & protocol for your site, e.g. http://example.com
@@ -26,6 +26,15 @@ url: "https://millakortelainen.github.io/course-template-4/" # the base hostname
 # Build settings
 plugins:
   - jekyll-feed
+
+markdown: kramdown
+highlighter: rouge
+kramdown:
+  input: GFM
+  syntax_highlighter_opts:
+    default_lang: html
+    css_class   : 'syntax'
+
 
 collections:
   pages:

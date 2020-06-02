@@ -68,13 +68,11 @@ nav a:hover {
 
 .side-nav-hidden button {
     text-align: center;
-    //background-color: rgba(71, 80, 150, 0.795);
     background-color: transparent;
     border: none;
-    //font-size: 4em;
     margin-top: 0;
     overflow-x: hidden;
-    background-image: url(../img/drawing.svg);
+    background-image: url(../img/menu-icon.svg);
     background-position: left;
     background-repeat: no-repeat;
     background-size: contain;
@@ -97,7 +95,6 @@ nav a:hover {
 @media screen and (max-width: 500px) {
     .side-nav-hidden button {
         text-align: center;
-        //background-color: rgba(71, 80, 150, 0.795);
         background-color: transparent;
         border: none;
         font-size: 3em;

@@ -12,9 +12,8 @@ sub-sections:
 ---
 # Osa 1: Johdanto
 
-* [Mikä on tietokanta](#mika-on-tietokanta)
-* [Yksinkertainen tietokanta](#yksinkertainen-tietokanta)
-* [Relaatiomalli](#relaatiomalli)
+{% for s in page.sub-sections%}
+* [{{ s.sub-section-title }}](#{{s.link-url}}){% endfor %}
 
 {% include_relative osa-1-1.md %}
 {% include_relative osa-1-2.md %}

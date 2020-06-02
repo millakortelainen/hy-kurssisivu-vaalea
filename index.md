@@ -1,8 +1,16 @@
 ---
 layout: default
-title: Tietokantojen perusteet
+title: {{site.title}}
 ---
 # Tietoa kurssista
+
+```python
+for i in range(10):
+	print("lol")
+```
+```sql
+SELECT * FROM Tuotteet WHERE nimi='lanttu';
+```
 
 _Tietokantojen perusteet_ on 5 op laajuinen
 tietojenkäsittelytieteen perusopintokurssi,
