@@ -12,4 +12,58 @@ html {
     background-position: center;
     background-attachment: fixed;
     background-size: cover;
+    margin-bottom: 0;
+}
+
+body {
+    margin:0;
+}
+
+.highlight .syntax {
+    border: 1px solid black;
+    border-radius: 8px;
+    font-size: 16px;
+    padding: 0.5em;
+    margin: 2em 0;
+    overflow-x: auto;
+}
+
+
+.language-bash {
+    background-color: #2E3436;
+    color: #D3D7CF !important;
+    border-radius: 8px;
+}
+.language-bash * {
+    color: #D3D7CF !important;
+}
+
+code.language-html{
+    background-color: rgba(221, 221, 221, 0.637);
+}
+
+.highlighter-rouge + p:not(.code-title) {
+    margin-top: -1em;
+}
+
+p:not(.code-title) + .highlighter-rouge{
+    margin-top: -1em;
+}
+
+.code-title {
+    position: relative;
+    text-align: right;
+    top: 3.5em;
+    right: 1em;
+    margin-top: -3.5em;
+    margin-bottom: 0;
+}
+
+.code-title-bash {
+    color: white;
+    position: relative;
+    text-align: right;
+    top: 3.5em;
+    right: 1em;
+    margin-top: -3.5em;
 }

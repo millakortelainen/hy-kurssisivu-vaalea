@@ -11,15 +11,15 @@
 install gems
 bundle exec jekyll serve --incremental
 
-## `_config.yml`
+## Konfiguraatio `_config.yml`
 
 Tiedostoon `_config.yml` laitetaan kurssin tiedot.
 
 * Kenttään `title` tulee kurssin nimi. Käytä merkkiä `&shy;` määrittämään, mihin rivinvaihto ja tavuviiva tulee, kun kurssin nimi on pitkä.
 
-* Kenttään `url` tulee osoite, jossa sivu julkaistaan. Linkin saa yleensä suoraan ghpages sivulta.
-
 * Kenttään `baseurl` tulee osoitteen loppuosa eli hakemiston nimi.
+
+* Kenttään `url` tulee osoite, jossa sivu julkaistaan. Linkin saa yleensä suoraan ghpages sivulta.
 
 ## Erityyppiset sivut
 

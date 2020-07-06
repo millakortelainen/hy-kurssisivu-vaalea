@@ -1,72 +1,12 @@
 
-## Mikä on tietokanta?
+## Osa 1-1 Otsikko
 
-_Tietokanta_ (_database_) on tietokoneella oleva kokoelma tietoa,
-johon voidaan suorittaa hakuja ja jonka sisältöä voidaan muuttaa.
-Tietokantoja ovat esimerkiksi:
+ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec lobortis nulla magna, a porttitor orci mattis eget. Nunc quis ligula sapien. Vestibulum cursus, lorem mollis pellentesque mollis, justo nunc dictum lectus, at faucibus magna urna vel nulla. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Quisque suscipit interdum arcu at molestie. In id erat vehicula erat rhoncus finibus. Maecenas in magna at ligula pharetra maximus. Curabitur metus augue, imperdiet non fermentum in, euismod sit amet dolor. Fusce pellentesque tortor maximus est pharetra, et vehicula velit convallis. Donec erat ligula, maximus ac nulla sed, congue dapibus nulla.
 
-* nettisivuston käyttäjien tunnukset ja salasanat
-* verkkokaupan tuotteet ja varastotilanne
-* pankin tiedot asiakkaista ja tilitapahtumista
-* päivittäin mitatut säätiedot eri paikoissa
-* lentoyhtiön lentoaikataulut ja varaustilanne
+Ut sed sem enim. Aliquam dictum, dui non bibendum elementum, lorem mauris varius libero, id tincidunt sem est a augue. Nullam metus tellus, sollicitudin non massa ut, interdum aliquet diam. Ut tincidunt lacinia felis quis volutpat. Vivamus iaculis semper dui, vitae laoreet turpis tempor aliquet. Morbi dignissim consectetur leo, eu pulvinar quam bibendum sit amet. Nulla eu justo euismod, lacinia odio quis, maximus velit. Curabitur non felis vel odio porta tristique nec quis velit. Suspendisse at dui tellus. Sed metus nisi, dictum id nunc eu, eleifend volutpat ipsum. Donec lobortis aliquam fringilla. Praesent lacinia vulputate tempor. Mauris lacinia libero sapien, at venenatis magna sollicitudin malesuada. Vestibulum eleifend placerat imperdiet.
 
-Tietokantoja onkin nykyään valtavasti, ja useimmat ihmiset ovat
-tavallisen päivän aikana yhteydessä lukuisiin tietokantoihin.
+Maecenas congue ante sed pretium tincidunt. Donec iaculis, risus eget mollis auctor, libero sapien consequat eros, ut pulvinar mauris nisl faucibus mi. Praesent id ex tristique, faucibus mi nec, dapibus nulla. Sed efficitur quis orci ut rutrum. Maecenas feugiat ultricies lacus ut tempus. Sed ultrices lorem a est pharetra pharetra. Donec sodales, justo in commodo finibus, tellus elit aliquam diam, nec maximus sapien lectus a eros. Nam egestas pharetra massa, in faucibus nibh tristique aliquet. Nullam cursus pellentesque accumsan. Aenean et molestie ligula. Fusce ac eleifend libero. Maecenas ante tellus, feugiat sed commodo ut, finibus et purus. Ut vitae urna at dui dictum bibendum at vitae sapien. Nulla facilisi. Pellentesque a dapibus elit. Nullam turpis nunc, pretium vel nunc at, finibus fringilla ante.
 
+Nam leo sem, cursus eu maximus ac, efficitur id neque. Duis consequat rhoncus metus ut dictum. Quisque fermentum faucibus dolor, ut sollicitudin nunc aliquet ut. Sed nec metus non mi euismod dapibus. Fusce euismod nunc eu tempor vestibulum. Quisque auctor erat elit, ut bibendum sapien ullamcorper vel. Quisque convallis sit amet diam a malesuada. Duis convallis bibendum diam, ut porttitor metus dictum sed. Sed nec leo ac erat volutpat vestibulum condimentum id orci. Phasellus condimentum turpis sed ante condimentum, eget viverra leo rutrum. Maecenas tincidunt neque id fringilla porttitor. Suspendisse potenti. Donec eu eleifend dolor.
 
-### Tietokantojen haasteet
-
-Tietokantojen tekniseen toteutukseen liittyy monia haasteita,
-eikä hyvin toimivan tietokannan toteuttaminen ole helppo tehtävä.
-Keskeisiä haasteita ovat:
-
-#### Tiedon määrä
-
-Monessa tietokannassa on suuri määrä tietoa,
-johon kohdistuu jatkuvasti hakuja ja muutoksia.
-Miten toteuttaa tietokanta niin, että tietoon pääsee
-käsiksi tehokkaasti?
-
-#### Samanaikaisuus
-
-Tietokannalla on yleensä useita käyttäjiä,
-jotka voivat hakea ja muuttaa tietoa samaan aikaan.
-Mitä tietokannan toteutuksessa tulee ottaa huomioon
-tähän liittyen?
-
-#### Yllätykset
-
-Tietokannan sisällön tulisi säilyä järkevänä
-myös yllättävissä tilanteissa.
-Esimerkiksi mitä tapahtuu, jos sähköt katkeavat
-juuri silloin, kun tietoa ollaan muuttamassa?
-
-### Tietokantojen kehitys
-
-Tietokantojen kehitys lähti vauhtiin 1970-luvulla
-ja alalla oli monia yrittäjiä,
-mutta yksi niistä syrjäytti pian muut:
-relaatiomalli ja siihen liittyvä kyselykieli SQL.
-Relaatiotietokantojen voittokulku on jatkunut
-vuosikymmenten ajan tähän päivään asti,
-ja useimmat käytössä olevat tietokannat
-perustuvat edelleen relaatiomalliin.
-
-Tällä kurssilla tutustumme relaatiotietokantoihin
-sekä tietokannan käyttäjän että teknisen toteutuksen näkökulmasta.
-Yksi kurssin punainen lanka onkin:
-_miksi_ relaatiomalli on niin hyvä
-tapa tietokannan toteuttamiseen?
-
-Vaikka relaatiotietokannat ovat edelleen valta-asemassa,
-niiden rinnalle on noussut viime aikoina vakavasti otettavia haastajia.
-Yksi syy tilanteen muutokseen on ollut tarve uudenlaisille tietokannoille,
-jotka sopivat paremmin hajautettuun käyttöön
-kuten suurten nettisivustojen taustalle.
-
-Usein esiintyvä termi NoSQL viittaa tietokantaan,
-joka on jotain muuta kuin SQL-kieleen perustuva relaatiotietokanta.
-Erityisesti dokumenttitietokannat ovat nostaneet päätään viime aikoina.
-Vaikka tällä kurssilla keskitymmekin relaatiomalliin,
-on siis hyvä pitää mielessä, että muitakin vaihtoehtoja on olemassa.
+Quisque gravida vulputate dui non pretium. Donec tincidunt ex in consequat malesuada. Nunc tempus tristique ultricies. Fusce metus eros, efficitur et semper ut, imperdiet accumsan sapien. Praesent ut ligula laoreet orci bibendum elementum. Fusce id sem cursus, semper turpis non, facilisis velit. Curabitur tempus tempor massa, sed sodales felis consectetur in. Phasellus viverra pretium eros, a posuere turpis elementum in. Aliquam sed justo libero. Proin ut risus sem. Duis feugiat sit amet mauris eget ultricies. Aenean at ipsum non eros facilisis rutrum quis sit amet orci. Fusce aliquet vel erat non blandit. Nunc tristique efficitur quam eget egestas. Proin consectetur 

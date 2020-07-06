@@ -1,6 +1,7 @@
+
 .side-nav {
     position: fixed;
-    width: 13em;
+    width: 15em;
     overflow-y: scroll;
     top: 0;
     bottom: 0;
@@ -11,7 +12,7 @@
 
 .side-nav h2 {
     text-align: center;
-    padding: 1em 0em 1em 0em;
+    padding: 1em 1em 1em 1em;
 }
 
 .side-nav ol {
@@ -35,7 +36,7 @@ nav a:hover {
 }
 
 .side-nav-obj hr {
-    border: thick dashed #475096ff;
+    border: none;
 }
 
 .side-nav-sub-obj {
@@ -45,11 +46,7 @@ nav a:hover {
 }
 
 .side-nav button {
-    box-shadow: none;
-    border: none;
-    font-size: larger;
-    background-color: transparent;
-    margin: 1em 0 0 8em;
+    display: none;
 }
 
 .side-nav #show {
@@ -72,7 +69,7 @@ nav a:hover {
     border: none;
     margin-top: 0;
     overflow-x: hidden;
-    background-image: url(../img/menu-icon.svg);
+    background-image: url(../img/drawing.svg);
     background-position: left;
     background-repeat: no-repeat;
     background-size: contain;
@@ -93,6 +90,16 @@ nav a:hover {
 }
 
 @media screen and (max-width: 500px) {
+
+    .side-nav button {
+        display: grid;
+        box-shadow: none;
+        border: none;
+        font-size: larger;
+        background-color: transparent;
+        margin: 1em 0 0 8em;
+    }
+
     .side-nav-hidden button {
         text-align: center;
         background-color: transparent;
@@ -102,5 +109,9 @@ nav a:hover {
         margin-top: 0;
         height: 1em;
         width: 1em;
+    }
+
+    .side-nav {
+        width: 13em;
     }
 }

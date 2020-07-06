@@ -20,8 +20,8 @@
 
 title: Kurssin nimi
 description: ""
-baseurl: "/course-template-4" # the subpath of your site, e.g. /blog
-url: "https://millakortelainen.github.io/course-template-4/" # the base hostname & protocol for your site, e.g. http://example.com
+baseurl: "/course-template-light" # the subpath of your site, e.g. /blog
+url: "https://millakortelainen.github.io/course-template-light/" # the base hostname & protocol for your site, e.g. http://example.com
 
 # Build settings
 plugins:
