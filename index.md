@@ -11,3 +11,7 @@ for i in range(10):
 ```sql
 SELECT * FROM Tuotteet WHERE nimi='lanttu';
 ```
+
+@startuml
+Bob -> Alice : hello
+@enduml
