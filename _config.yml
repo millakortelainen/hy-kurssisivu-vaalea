@@ -26,6 +26,7 @@ url: "https://millakortelainen.github.io/course-template-light/" # the base host
 # Build settings
 plugins:
   - jekyll-feed
+  - jekyll-spaceship
 
 markdown: kramdown
 highlighter: rouge
