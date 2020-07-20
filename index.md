@@ -2,7 +2,7 @@
 layout: default
 title: Kurssin nimi
 ---
-# Tietoa kurssista
+# Ei Tietoa kurssista
 
 ```python
 for i in range(10):
