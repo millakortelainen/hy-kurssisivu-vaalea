@@ -7,7 +7,7 @@ html {
     color: #000000;
     width: 100%;
     background-color: #ffffff;
-    background-image: url(../img/taustakuva.svg);
+    background-image: url(../img/site/taustakuva.svg);
     background-position: center;
     background-attachment: fixed;
     background-size: cover;
@@ -15,7 +15,7 @@ html {
 }
 
 body {
-    margin:0;
+    margin: 0;
 }
 
 .highlight .syntax {
@@ -27,6 +27,7 @@ body {
     overflow-x: auto;
 }
 
+
 .language-bash {
     background-color: #2E3436;
     color: #D3D7CF !important;
@@ -36,6 +37,12 @@ body {
 .language-bash * :not(.nv){
     color: #D3D7CF !important;
     font-weight: normal !important;
+}
+
+.language-plaintext {
+    background-color: #2E3436;
+    color: #D3D7CF !important;
+    border-radius: 8px;
 }
 
 .language-prompt {
@@ -60,12 +67,28 @@ p:not(.code-title) + .highlighter-rouge{
     margin-top: -1em;
 }
 
-.code-title {
+p + .code-title{
+    float: right;
     position: relative;
-    text-align: right;
     top: 3.5em;
     right: 1em;
-    margin-top: -3.5em;
+    margin-top: -2.5em;
     margin-bottom: 0;
     user-select: none;
+}
+
+.code-title {
+    float: right;
+    position: relative;
+    top: 2.7em;
+    right: 1em;
+    margin-top: -2.5em;
+    margin-bottom: 0;
+    user-select: none;
+}
+
+@media screen and (max-width: 500px) {
+    .code-title{
+        display: none;
+    }
 }

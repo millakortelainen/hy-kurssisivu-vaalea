@@ -1,5 +1,4 @@
 ---
-layout: chapter
 nav-title: Osa 2
 sub-sections:
       - sub-section-title: Osa 2-1 Otsikko
