@@ -26,17 +26,21 @@ nav a {
     color: black;
     text-decoration: none;
     outline: none;
+    display: block;
+    padding: 0 0 0.5em 1em;
+}
+
+nav li:hover {
+    background-color: rgb(148, 148, 148);
 }
 
 .current {
-    background-color: #666;
-    color: white;
+    background-color: rgb(209, 209, 209);
   }
 
 .side-nav-obj {
     display: block;
     color: #000;
-    padding: 0 0 0.5em 1em;
 }
 
 .side-nav-obj hr {
@@ -46,7 +50,7 @@ nav a {
 .side-nav-sub-obj {
     display: block;
     color: #000;
-    padding: 0 0 0.5em 2em;
+    padding-left: 1em;
 }
 
 .side-nav button {
@@ -86,6 +90,10 @@ nav a {
 }
 
 .side-nav-hidden ol {
+    display: none;
+}
+
+.no-nav {
     display: none;
 }
 

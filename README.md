@@ -14,4 +14,8 @@ Hakemiston juuressa on tiedosto nimeltä `_config.yml`. Muokkaa kurssin tiedot t
 * `baseurl: "/course-template-light"` Korvaa "/course-template-light" repon nimellä, jossa kurssi sivu julkaistaan. 
 * `url: "https://millakortelainen.github.io/course-template-light/"` Vaihda url osoite sivun osoitteeksi. Tämän saa yleensä sillä, että julkaiee sivun github pages:ssä. Käytännössä osoite on muotoa `https://<käyttäjä/organisaatio>.github.io/<repon-nimi>/`.
 
+### Materiaali
 
+### Github Action konfigurointi
+
+Github Actions tarvitaan, jotta plugin toimii.
