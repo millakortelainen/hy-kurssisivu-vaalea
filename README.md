@@ -16,6 +16,30 @@ Hakemiston juuressa on tiedosto nimeltä `_config.yml`. Muokkaa kurssin tiedot t
 
 ### Materiaali
 
+Materiaali on jaettu kahteen osaan. Staattiset sivut, jossa voi olla tietoa kurssista on hakemistossa `_pages`. Kurssimateriaali on hakemistossa `_content`.
+
+Jokaisen sivun alussa on "frontmatter", joka on merkitty viivojen sisälle
+
+```jekyll
+---
+layout: default
+nav-title: Etusivu
+---
+```
+
+Se sisältää metatietoja siuvsta, jota voidaan käyttää sivun kääntämis vaiheessa.
+
+#### _pages
+
+Hakemisto staattisille. Lisää määre `hidden: true` frontmatteriin, jotta sivu ei tule näkyviin sivuvalikkoon. 
+
+Sivut järjestetään valikkoon aakkosjärjestyksessä.
+TODO: sivut järjestetään annetun arvon perusteella. 
+
+#### _content
+
+Materiaali on hakemistossa `_content`. Materiaaliin saa alaosioita kirjoittamalla ne uuteen tiedostoon. Jos materiaalissa on alaosioita, ne tulee merkita frontmatteriin.
+
 ### Github Action konfigurointi
 
-Github Actions tarvitaan, jotta plugin toimii.
+Github Actions tarvitaan, jotta pluginit toimii.
