@@ -38,7 +38,7 @@ TODO: sivut järjestetään annetun arvon perusteella.
 
 #### _content
 
-Materiaali on hakemistossa `_content`. Materiaaliin saa alaosioita kirjoittamalla ne uuteen tiedostoon. Jos materiaalissa on alaosioita, ne tulee merkita frontmatteriin.
+Kurssimateriaali on hakemistossa `_content`. 
 
 ### Github Action konfigurointi
 
