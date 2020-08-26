@@ -4,7 +4,7 @@
 
 Kloonaa repo tai ota template käyttöön githubissa. Templaten saa käyttöön klikkaamalla "Use this template" githubissa, jolloin githubissa voi luoda uuden repon, jossa on pohjana templaten tiedostot. Tämän jälkeen template repo pitää kuitenkin kloonata, jos haluaa tiedostot koneelle.
 
-Mene paikallisesti sivun hakemistoon ja aja komento `bundle install`. Tämän jälkeen pohjan voi käynnistää paikallisesti komennolla `bundle exec jekyll serve --incremental`.
+Mene paikallisesti sivun hakemistoon ja aja komento `bundle install`. Tämän jälkeen pohjan voi käynnistää paikallisesti komennolla `bundle exec jekyll serve -w -l`.
 
 ### _config.yml
 
