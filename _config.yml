@@ -19,8 +19,8 @@
 # in the templates via {{ site.myvariable }}.
 
 title: Kurssin nimi
-baseurl: "/course-template-light" # the subpath of your site, e.g. /blog
-url: "https://millakortelainen.github.io/course-template-light/" # the base hostname & protocol for your site, e.g. http://example.com
+baseurl: "/hy-kurssisivu-vaalea" # the subpath of your site, e.g. /blog
+url: "https://millakortelainen.github.io/hy-kurssisivu-vaalea/" # the base hostname & protocol for your site, e.g. http://example.com
 
 # Build settings
 plugins:
